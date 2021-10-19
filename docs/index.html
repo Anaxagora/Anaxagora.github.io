@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="../css/grid.css">
+    <script src="https://kit.fontawesome.com/f65f05c777.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="../js/barreiro.js"></script>
+    <title>Nicolas Gabriel Barreiro</title>
+</head>
+
+<body class="grid-container">
+    <!---NAVBAR-->
+    <header>
+        <nav class="item1">
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="sombreado"><img src="../img/apple-icon-60x60.png"></label>
+            <div class="hamburguesa">
+                <a href="index.html#parte-1">
+                    <p>Leone Abbacchio y M.B.</p>
+                </a>
+                <a href="index.html#parte-2">
+                    <p>Referencias</p>
+                </a>
+                <a href="index.html#parte-3">
+                    <p>Passione</p>
+                </a>
+                <a href="../html/suscribe.html">
+                    <p>Suscribite</p>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!---LEONE ABBACCHIO Y MOODY BLUES-->
+    <section class="item4" id="parte-1">
+        <div class="textosection">
+            <div class="titulo1">
+                <h2 class="animacion">Leone Abbacchio y Moody Blues</h2>
+            </div>
+            <div class="parrafo1">
+                <p>Es un joven sombrío y bastante amargo de 20 años que antes de unirse a la mafia italiana fue un
+                    policía respetuoso de la ley. Tras un problema con unas coimas y la corrupción judicial Leone
+                    decidió abandonar la fuerza policial y unirse a “Passione” bajo las órdenes de Bruno Bucciarati.</p>
+                <img src="../img/aba1.png" alt="Leone Abbacchio">
+            </div>
+            <div class="parrafo1">
+                <img src="../img/moddy1.png" alt="Moody Blues">
+                <p>Leone Abbacchio tiene un Stand conocido como Moody Blues. El mismo, tras ser invocado, le permite
+                    recrear los eventos ocurridos en un lugar y tiempo específico. Moody Blues adopta la forma de la
+                    persona en cuestión y repite cada movimiento que haya hecho. Este se puede usar para repetir desde
+                    minutos hasta años enteros.</p>
+            </div>
+            <div class="parrafo2">
+                <p>A lo largo de su viaje con Passione colabora mucho con el equipo y es de mucha ayuda. Pero
+                    encontraría la muerte en manos de Diavolo quien lo aniquila antes de que revele su identidad. Pero
+                    en su lecho de muerte, y como legado, utilizo toda su energía para dejarle a sus compañeros una
+                    pista de lo que había descubierto.</p>
+                <iframe height="315" src="https://www.youtube.com/embed/XuhgGOkOtBU" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!---REFERENCIA MUSICAL-->
+    <section class="item5" id="parte-2">
+        <div class="textosection">
+            <div class="titulo1">
+                <h2 class="animacion"> Referencia Musical: The Moody Blues</h2>
+            </div>
+            <div class="parrafo2">
+                <p>Como se habrán dado cuenta la mayoría de los personajes llevan en sus Stand una referencia musical al
+                    Rock
+                    europeo. Esto es así porque Hirohiko Araki es fanático de este género musical. Pero esto mismo le
+                    trajo
+                    problemas a las trasmisoras ya que debían pagar derechos de autor para utilizar dichos nombres. Por
+                    esto
+                    mismo, cuando el anime se emitió en televisión, muchos nombres fueron alterados: Aerosmith, el Stand
+                    de
+                    Narancia Ghirga pasó a llamarse Lil´Bomber y el Stand de Leone Abbacchio pasó de Moody Blues a Moody
+                    Jazz,
+                    entre otros. </p>
+                <img src="../img/moodyBanda.jpg" alt="The Moody Blues">
+                <p>The Moody Blues es un grupo de rock de Reino Unido que se formó en Birmingham en 1964. Su primera voz
+                    fue
+                    Denny Laine, que más adelante sería compañero de Paul McCartney en Wings. También participaban en el
+                    grupo
+                    Graeme Edge (batería), Ray Thomas (flauta y voz), Clint Warwick (bajo y voz) y Mike Pinder
+                    (teclados).</p>
+                <iframe src="https://open.spotify.com/embed/track/6L5BZEcZmD6RBJnimzlyKr" width="100%" height="80"
+                    frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!---PASSIONE-->
+    <section class="item2" id="parte-3">
+        <div class="titulofx">
+            <h2 class="animacion"> Passione</h2>
+            <h3>(Sugerido el uso de auriculares)</h3>
+        </div>
+        <div class="fx">
+            <div class="box" onmousedown="sonido.play()">
+                <img class="stand" src="../img/aba_mb.jpg" alt="Imagen Abbacchio">
+                <div class="hover">
+                    <h2>Apretá para invocar a Moody Blues</h2>
+                </div>
+            </div>
+            <div class="box" onmousedown="sonido1.play()">
+                <img class="stand" src="../img/bucha.jpg" alt="Imagen Abbacchio">
+                <div class="hover">
+                    <h2>Apretá para invocar a Sticky Finger</h2>
+                </div>
+            </div>
+            <div class="box" onmousedown="sonido2.play()">
+                <img class="stand" src="../img/FugoAV.jpg" alt="Imagen Abbacchio">
+                <div class="hover">
+                    <h2>Apretá para invocar a Purple Haze</h2>
+                </div>
+            </div>
+            <div class="box" onmousedown="sonido3.play()">
+                <img class="stand" src="../img/giorno.png" alt="Imagen Abbacchio">
+                <div class="hover">
+                    <h2>Apretá para invocar a Gold Experience</h2>
+                </div>
+            </div>
+            <div class="box" onmousedown="sonido4.play()">
+                <img class="stand" src="../img/Mista.png" alt="Imagen Abbacchio">
+                <div class="hover">
+                    <h2>Apretá para invocar a Six Bullets</h2>
+                </div>
+            </div>
+            <div class="box" onmousedown="sonido5.play()">
+                <img class="stand" src="../img/Narancia.png" alt="Imagen Abbacchio">
+                <div class="hover">
+                    <h2>Apretá para invocar a Aerosmith</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---FOOTER-->
+    <footer class="item3" id="item3">
+        <div class="redes">
+            <h5 class="animacion">Nicolás</h5>
+            <h5 class="animacion">Gabriel</h5>
+            <h5 class="animacion">Barreiro</h5>
+        </div>
+        <div>
+            <img class="separador" src="/img/logo.png" alt="Logo Abbacchio Chibi">
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/niico.barreiro1"><i class="fab fa-facebook-square"> Facebook</i></a>
+            <a href="https://www.instagram.com/barreironiico/"><i class="fab fa-instagram-square"> Instagram</i></a>
+            <a href="https://www.linkedin.com/in/nicol%C3%A1s-gabriel-barreiro-8648b421a/"><i class="fab fa-linkedin">
+                    LinkedIn</i></a>
+            <a href="https://twitter.com/niico_the"><i class="fab fa-twitter-square"> Twitter</i></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
